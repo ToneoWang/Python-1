@@ -1,0 +1,7 @@
+diff a/dir_test.py b/dir_test.py	(rejected hunks)
+@@ -0,4 +0,5 @@
+ 
+ import os									# Import the OS module
+ 
++if not os.path.exists('testdir'):		#  Check to see if it exists
+   os.makedirs('testdir')				#  Create the directory
